@@ -28,7 +28,7 @@ apis:
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/instances/master/_listings/aws-rds/action-rebootdbinstance-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/instances/master/_listings/aws-rds/action-restoredbinstancefromdbsnapshot-get.md
 x-common:
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
