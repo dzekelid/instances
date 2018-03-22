@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetInstanceSnapshot&k=1:
+  /?Action=GetInstanceSnapshot:
     get:
       summary: ' Get Instance Snapshot '
       description: Returns information about a specific instance snapshot
