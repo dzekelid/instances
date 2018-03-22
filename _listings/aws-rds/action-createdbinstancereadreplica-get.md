@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDBInstanceReadReplica&k=1:
+  /?Action=CreateDBInstanceReadReplica:
     get:
       summary: Create D B Instance Read Replica
       description: Creates a DB instance for a DB instance running MySQL, MariaDB,
