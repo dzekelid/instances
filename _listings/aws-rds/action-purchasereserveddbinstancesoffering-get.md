@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PurchaseReservedDBInstancesOffering&k=1:
+  /?Action=PurchaseReservedDBInstancesOffering:
     get:
       summary: Purchase Reserved D B Instances Offering
       description: Purchases a reserved DB instance offering
