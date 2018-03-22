@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=OpenInstancePublicPorts&k=1:
+  /?Action=OpenInstancePublicPorts:
     get:
       summary: ' Open Instance Public Ports '
       description: Adds public ports to an Amazon Lightsail instance
