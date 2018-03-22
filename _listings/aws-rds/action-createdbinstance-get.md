@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDBInstance&k=1:
+  /?Action=CreateDBInstance:
     get:
       summary: Create D B Instance
       description: Creates a new DB instance
