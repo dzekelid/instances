@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateInstancesFromSnapshot&k=1:
+  /?Action=CreateInstancesFromSnapshot:
     get:
       summary: ' Create Instances From Snapshot '
       description: |-
