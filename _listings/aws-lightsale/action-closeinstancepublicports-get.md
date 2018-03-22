@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CloseInstancePublicPorts&k=1:
+  /?Action=CloseInstancePublicPorts:
     get:
       summary: ' Close Instance Public Ports '
       description: Closes the public ports on a specific Amazon Lightsail instance
