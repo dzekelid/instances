@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetInstanceMetricData&k=1:
+  /?Action=GetInstanceMetricData:
     get:
       summary: ' Get Instance Metric Data '
       description: |-
