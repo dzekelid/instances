@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetInstancePortStates&k=1:
+  /?Action=GetInstancePortStates:
     get:
       summary: ' Get Instance Port States '
       description: |-
