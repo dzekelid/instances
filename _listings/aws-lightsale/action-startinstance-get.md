@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StartInstance&k=1:
+  /?Action=StartInstance:
     get:
       summary: ' Start Instance '
       description: Starts a specific Amazon Lightsail instance from a stopped state
