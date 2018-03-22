@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetInstances&k=1:
+  /?Action=GetInstances:
     get:
       summary: ' Get Instances '
       description: |-
