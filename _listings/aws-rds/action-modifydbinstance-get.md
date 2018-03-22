@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyDBInstance&k=1:
+  /?Action=ModifyDBInstance:
     get:
       summary: Modify D B Instance
       description: Modifies settings for a DB instance
