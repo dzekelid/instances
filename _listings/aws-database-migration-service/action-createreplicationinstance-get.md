@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateReplicationInstance&k=1:
+  /?Action=CreateReplicationInstance:
     get:
       summary: ' Create Replication Instance '
       description: Creates the replication instance using the specified parameters
