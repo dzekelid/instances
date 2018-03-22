@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetBlueprints&k=1:
+  /?Action=GetBlueprints:
     get:
       summary: ' Get Blueprints '
       description: Returns the list of available instance images, or blueprints
