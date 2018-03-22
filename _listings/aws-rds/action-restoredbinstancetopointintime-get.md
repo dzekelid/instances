@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RestoreDBInstanceToPointInTime&k=1:
+  /?Action=RestoreDBInstanceToPointInTime:
     get:
       summary: Restore D B Instance To Point In Time
       description: Restores a DB instance to an arbitrary point in time
