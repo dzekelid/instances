@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RebootDBInstance&k=1:
+  /?Action=RebootDBInstance:
     get:
       summary: Reboot D B Instance
       description: Rebooting a DB instance restarts the database engine service
