@@ -23,7 +23,17 @@ created: "2018-03-21"
 modified: "2018-03-21"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-ec2/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS EC2 API
+  description: Amazon Elastic Compute Cloud is a web service that provides resizable
+    compute capacity in the cloud
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: ""
+  baseURL: :///
+  tags: Instances
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-ec2/action-runscheduledinstances-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
