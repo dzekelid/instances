@@ -27,7 +27,7 @@ apis:
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-import-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-promotereplica-post.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/sql/docs/release-notes
