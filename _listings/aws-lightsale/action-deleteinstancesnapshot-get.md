@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteInstanceSnapshot&k=1:
+  /?Action=DeleteInstanceSnapshot:
     get:
       summary: ' Delete Instance Snapshot '
       description: |-
