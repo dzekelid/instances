@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateInstances&k=1:
+  /?Action=CreateInstances:
     get:
       summary: ' Create Instances '
       description: |-
