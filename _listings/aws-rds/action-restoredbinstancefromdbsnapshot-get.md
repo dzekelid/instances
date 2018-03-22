@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RestoreDBInstanceFromDBSnapshot&k=1:
+  /?Action=RestoreDBInstanceFromDBSnapshot:
     get:
       summary: Restore D B Instance From D B Snapshot
       description: Creates a new DB instance from a DB snapshot
