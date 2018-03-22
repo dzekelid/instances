@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeReservedDBInstancesOfferings&k=1:
+  /?Action=DescribeReservedDBInstancesOfferings:
     get:
       summary: Describe Reserved D B Instances Offerings
       description: Lists available reserved DB instance offerings
