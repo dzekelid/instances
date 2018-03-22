@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetInstanceState&k=1:
+  /?Action=GetInstanceState:
     get:
       summary: ' Get Instance State '
       description: Returns the state of a specific instance
