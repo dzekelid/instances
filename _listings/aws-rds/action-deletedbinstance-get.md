@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDBInstance&k=1:
+  /?Action=DeleteDBInstance:
     get:
       summary: Delete D B Instance
       description: The DeleteDBInstance action deletes a previously provisioned DB
