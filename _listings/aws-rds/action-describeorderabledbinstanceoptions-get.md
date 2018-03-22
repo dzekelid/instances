@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeOrderableDBInstanceOptions&k=1:
+  /?Action=DescribeOrderableDBInstanceOptions:
     get:
       summary: Describe Orderable D B Instance Options
       description: Returns a list of orderable DB instance options for the specified
