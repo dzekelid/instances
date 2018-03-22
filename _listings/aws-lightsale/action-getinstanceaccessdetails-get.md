@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetInstanceAccessDetails&k=1:
+  /?Action=GetInstanceAccessDetails:
     get:
       summary: ' Get Instance Access Details '
       description: |-
