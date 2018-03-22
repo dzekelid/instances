@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDBInstances&k=1:
+  /?Action=DescribeDBInstances:
     get:
       summary: Describe D B Instances
       description: Returns information about provisioned RDS instances
