@@ -13,8 +13,8 @@ tags:
 - Stack Network
 - DNS
 - Amazon Web Services
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-lightsale/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -27,7 +27,7 @@ apis:
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-lightsale/action-stopinstance-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-lightsale/action-closeinstancepublicports-get.md
 x-common:
 - type: x-documentation
   url: https://docs.aws.amazon.com/lightsail/2016-11-28/api-reference/Welcome.html?fid=6DDA37DF97F08F8B-23761D4A79F7B1E
