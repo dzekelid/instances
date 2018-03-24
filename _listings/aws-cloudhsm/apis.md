@@ -33,8 +33,8 @@ tags:
 - Encryption
 - Contracts
 - Amazon Web Services
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-cloudhsm/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -48,7 +48,7 @@ apis:
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-cloudhsm/action-modifyhsm-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-cloudhsm/action-createhsm-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/cloudhsm/latest/dg/
