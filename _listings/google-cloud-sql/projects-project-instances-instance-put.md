@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Cloud SQL Administration
-  description: Creates and configures Cloud SQL instances, which provide fully-managed
-    MySQL databases.
+  title: Google Cloud SQL API Put Projects Project Instances Instance
+  description: 'Updates settings of a Cloud SQL instance. Caution: This is not a partial
+    update, so you must include values for all the settings that you want to retain.
+    For partial updates, use patch.'
   contact:
     name: Google
     url: https://google.com
