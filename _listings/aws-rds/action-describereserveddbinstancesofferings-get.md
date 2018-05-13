@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Describe Reserved D B Instances Offerings
   version: 1.0.0
+  description: Lists available reserved DB instance offerings.
 schemes:
 - http
 produces:
