@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Accept Reserved Instances Exchange Quote
   version: 1.0.0
+  description: Accepts the Convertible Reserved Instance exchange quote described
+    in the GetReservedInstancesExchangeQuote call.
 schemes:
 - http
 produces:
