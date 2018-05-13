@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Create Instances
   version: 1.0.0
+  description: |-
+    Creates one or more Amazon Lightsail virtual private servers, or
+            instances.
 schemes:
 - http
 produces:
