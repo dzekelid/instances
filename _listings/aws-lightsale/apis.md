@@ -28,17 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-lightsale/action-stopinstance-get.md
-- name: Amazon Lightsale API Create Instances From Snapshot
+- name: Amazon Lightsale API Create Instance Snapshot
   description: |-
-    Uses a specific snapshot as a blueprint for creating one or more new instances that are
-          based on that identical configuration.
+    Creates a snapshot of a specific virtual private server, or
+            instance.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
   humanURL: https://amazonlightsail.com/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-lightsale/action-createinstancesfromsnapshot-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-lightsale/action-createinstancesnapshot-get.md
 x-common:
 - type: x-documentation
   url: https://docs.aws.amazon.com/lightsail/2016-11-28/api-reference/Welcome.html?fid=6DDA37DF97F08F8B-23761D4A79F7B1E
