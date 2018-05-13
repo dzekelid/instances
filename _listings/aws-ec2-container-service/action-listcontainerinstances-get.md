@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Container Service API
+  title: Amazon EC2 Container Service API List Container Instances
   version: 1.0.0
+  description: Returns a list of container instances in a specified cluster.
 schemes:
 - http
 produces:
