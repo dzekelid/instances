@@ -33,15 +33,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-auto-scaling/action-detachinstances-get.md
-- name: AWS Auto Scaling API Describe Auto Scaling Instances
-  description: Describes one or more Auto Scaling instances.
+- name: AWS Auto Scaling API Detach Instances
+  description: Removes one or more instances from the specified Auto Scaling group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
   humanURL: https://aws.amazon.com/autoscaling/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-auto-scaling/action-describeautoscalinginstances-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-auto-scaling/action-detachinstances-get.md
 x-common:
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
