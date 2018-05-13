@@ -49,15 +49,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-cloudhsm/action-modifyhsm-get.md
-- name: AWS CloudHSM API Describe HSM
-  description: Retrieves information about an HSM.
+- name: AWS CloudHSM API List HSM
+  description: |-
+    Retrieves the identifiers of all of the HSMs provisioned for the current
+          customer.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
   humanURL: https://aws.amazon.com/cloudhsm/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-cloudhsm/action-describehsm-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-cloudhsm/action-listhsms-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/cloudhsm/latest/dg/
