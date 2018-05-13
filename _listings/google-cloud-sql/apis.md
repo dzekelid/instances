@@ -28,17 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-users-put.md
-- name: Google Cloud SQL API Delete Projects Project Instances Instance Users
-  description: Deletes a user from a Cloud SQL instance.
+- name: Google Cloud SQL API Get Projects Project Instances Instance Users
+  description: Lists users in the specified Cloud SQL instance.
   image: ""
   humanURL: https://cloud.google.com/sql/
   baseURL: http:://www.googleapis.com//sql/v1beta4
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-users-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-users-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-users-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-users-get-postman.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/sql/docs/release-notes
