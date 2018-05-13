@@ -30,15 +30,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-codedeploy/action-removetagsfromonpremisesinstances-get.md
-- name: AWS CodeDeploy API Register On Premises Instance
-  description: Registers an on-premises instance.
+- name: AWS CodeDeploy API Remove Tags From On Premises Instances
+  description: Removes one or more tags from one or more on-premises instances.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png
   humanURL: https://aws.amazon.com/codedeploy/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-codedeploy/action-registeronpremisesinstance-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-codedeploy/action-removetagsfromonpremisesinstances-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/codedeploy
