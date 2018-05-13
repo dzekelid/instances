@@ -28,9 +28,8 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-users-put.md
-- name: Google Cloud SQL API Add Projects Project Instances Instance Sslcerts
-  description: Creates an SSL certificate and returns it along with the private key
-    and server certificate authority. The new certificate will not be usable until
+- name: Google Cloud SQL API Delete Projects Project Instances Instance Sslcerts Sha1fingerprint
+  description: Deletes the SSL certificate. The change will not take effect until
     the instance is restarted.
   image: ""
   humanURL: https://cloud.google.com/sql/
@@ -38,7 +37,9 @@ apis:
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-sslcerts-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-sslcerts-sha1fingerprint-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-sslcerts-sha1fingerprint-delete-postman.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/sql/docs/release-notes
