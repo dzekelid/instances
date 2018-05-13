@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Deregister Instance
   version: 1.0.0
+  description: Deregister a registered Amazon EC2 or on-premises instance.
 schemes:
 - http
 produces:
