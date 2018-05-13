@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Get Instance Snapshots
   version: 1.0.0
+  description: Returns all instance snapshots for the user's account.
 schemes:
 - http
 produces:
