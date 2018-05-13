@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudHSM API
+  title: AWS CloudHSM API Create HSM
   version: 1.0.0
+  description: Creates an uninitialized HSM instance.
 schemes:
 - http
 produces:
