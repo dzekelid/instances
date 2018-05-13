@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Register Rds Db Instance
   version: 1.0.0
+  description: Registers an Amazon RDS instance with a stack.
 schemes:
 - http
 produces:
