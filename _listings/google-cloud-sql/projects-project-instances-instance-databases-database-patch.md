@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Cloud SQL Administration
-  description: Creates and configures Cloud SQL instances, which provide fully-managed
-    MySQL databases.
+  title: Google Cloud SQL API Patch Projects Project Instances Instance Databases
+    Database
+  description: Updates a resource containing information about a database inside a
+    Cloud SQL instance. This method supports patch semantics.
   contact:
     name: Google
     url: https://google.com
