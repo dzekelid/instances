@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Update Rds Db Instance
   version: 1.0.0
+  description: Updates an Amazon RDS instance.
 schemes:
 - http
 produces:
