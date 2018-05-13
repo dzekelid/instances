@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Get Instance State
   version: 1.0.0
+  description: Returns the state of a specific instance.
 schemes:
 - http
 produces:
