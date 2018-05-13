@@ -28,17 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-users-put.md
-- name: Google Cloud SQL API Get Projects Project Instances Instance Sslcerts
-  description: Lists all of the current SSL certificates for the instance.
+- name: Google Cloud SQL API Add Projects Project Instances Instance Sslcerts
+  description: Creates an SSL certificate and returns it along with the private key
+    and server certificate authority. The new certificate will not be usable until
+    the instance is restarted.
   image: ""
   humanURL: https://cloud.google.com/sql/
   baseURL: http:://www.googleapis.com//sql/v1beta4
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-sslcerts-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-sslcerts-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-sslcerts-post.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/sql/docs/release-notes
