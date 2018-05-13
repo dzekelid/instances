@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Container Service API
+  title: Amazon EC2 Container Service API Describe Container Instances
   version: 1.0.0
+  description: Describes Amazon EC2 Container Service container instances.
 schemes:
 - http
 produces:
