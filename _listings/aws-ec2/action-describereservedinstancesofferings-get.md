@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Describe Reserved Instances Offerings
   version: 1.0.0
+  description: Describes Reserved Instance offerings that are available for purchase.
 schemes:
 - http
 produces:
