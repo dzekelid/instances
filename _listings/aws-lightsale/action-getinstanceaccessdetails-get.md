@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Get Instance Access Details
   version: 1.0.0
+  description: |-
+    Returns temporary SSH keys you can use to connect to a specific virtual private server,
+          or instance.
 schemes:
 - http
 produces:
