@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Container Service API
+  title: Amazon EC2 Container Service API Register Container Instance
   version: 1.0.0
+  description: Deregisters an Amazon ECS container instance from the specified cluster.
 schemes:
 - http
 produces:
