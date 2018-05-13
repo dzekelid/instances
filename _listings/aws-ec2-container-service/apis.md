@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-ec2-container-service/action-registercontainerinstance-get.md
-- name: Amazon EC2 Container Service API Deregister Container Instance
-  description: Deregisters an Amazon ECS container instance from the specified cluster.
+- name: Amazon EC2 Container Service API Describe Container Instances
+  description: Describes Amazon EC2 Container Service container instances.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
   humanURL: https://aws.amazon.com/ecs/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-ec2-container-service/action-deregistercontainerinstance-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-ec2-container-service/action-describecontainerinstances-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonECS/latest/APIReference/
