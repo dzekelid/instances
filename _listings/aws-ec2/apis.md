@@ -34,16 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-ec2/action-runscheduledinstances-get.md
-- name: AWS EC2 API Accept Reserved Instances Exchange Quote
-  description: Accepts the Convertible Reserved Instance exchange quote described
-    in the GetReservedInstancesExchangeQuote call.
+- name: AWS EC2 API Describe Reserved Instances
+  description: Describes one or more of the Reserved Instances that you purchased.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
   humanURL: https://aws.amazon.com/ec2/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-ec2/action-acceptreservedinstancesexchangequote-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-ec2/action-describereservedinstances-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
