@@ -28,7 +28,39 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-users-put.md
+- name: Google Cloud SQL API Get Projects Project Instances
+  description: Lists instances under a given project in the alphabetical order of
+    the instance name.
+  image: ""
+  humanURL: https://cloud.google.com/sql/
+  baseURL: http:://www.googleapis.com//sql/v1beta4
+  tags: Instances
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-get-postman.md
 x-common:
+- type: x-change-log
+  url: https://cloud.google.com/sql/docs/release-notes
+- type: x-code
+  url: https://cloud.google.com/sql/docs/admin-api/libraries
+- type: x-concepts
+  url: https://cloud.google.com/sql/docs/postgres/concepts
+- type: x-documentation
+  url: https://cloud.google.com/sql/docs/
+- type: x-getting-started
+  url: https://cloud.google.com/sql/docs/postgres/quickstart
+- type: x-guides
+  url: https://cloud.google.com/sql/docs/postgres/how-to
+- type: x-pricing
+  url: https://cloud.google.com/sql/pricing
+- type: x-service-level-agreements
+  url: https://cloud.google.com/sql/sla
+- type: x-support
+  url: https://cloud.google.com/sql/docs/support
+- type: x-website
+  url: https://cloud.google.com/sql/
 - type: x-change-log
   url: https://cloud.google.com/sql/docs/release-notes
 - type: x-code
