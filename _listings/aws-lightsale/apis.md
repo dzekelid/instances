@@ -28,15 +28,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-lightsale/action-stopinstance-get.md
-- name: Amazon Lightsale API Reboot Instance
-  description: Restarts a specific instance.
+- name: Amazon Lightsale API Start Instance
+  description: Starts a specific Amazon Lightsail instance from a stopped state.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
   humanURL: https://amazonlightsail.com/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-lightsale/action-rebootinstance-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-lightsale/action-startinstance-get.md
 x-common:
 - type: x-documentation
   url: https://docs.aws.amazon.com/lightsail/2016-11-28/api-reference/Welcome.html?fid=6DDA37DF97F08F8B-23761D4A79F7B1E
