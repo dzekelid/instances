@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-ec2-container-service/action-registercontainerinstance-get.md
-- name: Amazon EC2 Container Service API Describe Container Instances
-  description: Describes Amazon EC2 Container Service container instances.
+- name: Amazon EC2 Container Service API List Container Instances
+  description: Returns a list of container instances in a specified cluster.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
   humanURL: https://aws.amazon.com/ecs/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-ec2-container-service/action-describecontainerinstances-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-ec2-container-service/action-listcontainerinstances-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonECS/latest/APIReference/
