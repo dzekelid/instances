@@ -28,16 +28,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-users-put.md
-- name: Google Cloud SQL API Patch Projects Project Instances Instance Databases Database
+- name: Google Cloud SQL API Put Projects Project Instances Instance Databases Database
   description: Updates a resource containing information about a database inside a
-    Cloud SQL instance. This method supports patch semantics.
+    Cloud SQL instance.
   image: ""
   humanURL: https://cloud.google.com/sql/
   baseURL: http:://www.googleapis.com//sql/v1beta4
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-databases-database-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-databases-database-put.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/sql/docs/release-notes
