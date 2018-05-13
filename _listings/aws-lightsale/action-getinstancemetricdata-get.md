@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Get Instance Metric Data
   version: 1.0.0
+  description: |-
+    Returns the data points for the specified Amazon Lightsail instance metric, given an
+          instance name.
 schemes:
 - http
 produces:
