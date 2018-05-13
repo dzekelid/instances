@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Get Blueprints
   version: 1.0.0
+  description: Returns the list of available instance images, or blueprints.
 schemes:
 - http
 produces:
