@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudHSM API
+  title: AWS CloudHSM API Delete HSM
   version: 1.0.0
+  description: Deletes an HSM.
 schemes:
 - http
 produces:
