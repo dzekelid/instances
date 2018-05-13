@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Reboot Instance
   version: 1.0.0
+  description: Reboots a specified instance.
 schemes:
 - http
 produces:
