@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Assign Instance
   version: 1.0.0
+  description: Assign a registered instance to a layer.
 schemes:
 - http
 produces:
