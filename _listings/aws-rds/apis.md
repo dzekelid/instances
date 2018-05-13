@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-rds/action-restoredbinstancetopointintime-get.md
-- name: Amazon RDS API Restore D B Instance From D B Snapshot
-  description: Creates a new DB instance from a DB snapshot.
+- name: Amazon RDS API Restore D B Instance To Point In Time
+  description: Restores a DB instance to an arbitrary point in time.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-rds/action-restoredbinstancefromdbsnapshot-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-rds/action-restoredbinstancetopointintime-get.md
 x-common:
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
