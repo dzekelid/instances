@@ -29,15 +29,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-rds/action-restoredbinstancetopointintime-get.md
-- name: Amazon RDS API Describe Orderable D B Instance Options
-  description: Returns a list of orderable DB instance options for the specified engine.
+- name: Amazon RDS API Describe Reserved D B Instances
+  description: Returns information about reserved DB instances for this account, or
+    about a specified reserved DB instance.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-rds/action-describeorderabledbinstanceoptions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-rds/action-describereserveddbinstances-get.md
 x-common:
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
