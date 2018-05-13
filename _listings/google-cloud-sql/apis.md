@@ -28,16 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-users-put.md
-- name: Google Cloud SQL API Add Projects Project Instances Instance Clone
-  description: Creates a Cloud SQL instance as a clone of the source instance. The
-    API is not ready for Second Generation instances yet.
+- name: Google Cloud SQL API Add Projects Project Instances Instance Createephemeral
+  description: Generates a short-lived X509 certificate containing the provided public
+    key and signed by a private key specific to the target instance. Users may use
+    the certificate to authenticate as themselves when connecting to the database.
   image: ""
   humanURL: https://cloud.google.com/sql/
   baseURL: http:://www.googleapis.com//sql/v1beta4
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-clone-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-createephemeral-post.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/sql/docs/release-notes
