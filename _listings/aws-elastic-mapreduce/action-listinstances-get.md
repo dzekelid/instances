@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic MapReduce API
+  title: AWS Elastic MapReduce API List Instances
   version: 1.0.0
+  description: "Provides information about the cluster instances that Amazon EMR provisions
+    on behalf of a user \n         when it creates the cluster."
 schemes:
 - http
 produces:
