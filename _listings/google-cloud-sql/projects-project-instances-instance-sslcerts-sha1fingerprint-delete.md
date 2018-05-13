@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Cloud SQL Administration
-  description: Creates and configures Cloud SQL instances, which provide fully-managed
-    MySQL databases.
+  title: Google Cloud SQL API Delete Projects Project Instances Instance Sslcerts
+    Sha1fingerprint
+  description: Deletes the SSL certificate. The change will not take effect until
+    the instance is restarted.
   contact:
     name: Google
     url: https://google.com
