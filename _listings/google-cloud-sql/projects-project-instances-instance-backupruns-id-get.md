@@ -1,9 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Cloud SQL Administration
-  description: Creates and configures Cloud SQL instances, which provide fully-managed
-    MySQL databases.
+  title: Google Cloud SQL API Get Projects Project Instances Instance Backupruns
+  description: Retrieves a resource containing information about a backup run.
   contact:
     name: Google
     url: https://google.com
