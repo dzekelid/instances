@@ -27,15 +27,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-opsworks/action-updaterdsdbinstance-get.md
-- name: AWS OpsWorks API Describe Rds Db Instances
-  description: Describes Amazon RDS instances.
+- name: AWS OpsWorks API Reboot Instance
+  description: Reboots a specified instance.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-opsworks/action-describerdsdbinstances-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-opsworks/action-rebootinstance-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
