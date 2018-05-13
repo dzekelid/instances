@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Database Migration Service API
+  title: AWS Database Migration Service API Describe Orderable Replication Instances
   version: 1.0.0
+  description: Returns information about the replication instance types that can be
+    created in the specified region.
 schemes:
 - http
 produces:
