@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudHSM API
+  title: AWS CloudHSM API Describe HSM
   version: 1.0.0
+  description: Retrieves information about an HSM.
 schemes:
 - http
 produces:
