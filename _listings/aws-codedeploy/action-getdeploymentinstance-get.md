@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CodeDeploy API
+  title: AWS CodeDeploy API Get Deployment Instance
   version: 1.0.0
+  description: Gets information about an instance as part of a deployment.
 schemes:
 - http
 produces:
