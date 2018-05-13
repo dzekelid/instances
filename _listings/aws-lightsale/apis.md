@@ -28,17 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-lightsale/action-stopinstance-get.md
-- name: Amazon Lightsale API Get Instance Access Details
+- name: Amazon Lightsale API Get Instance Metric Data
   description: |-
-    Returns temporary SSH keys you can use to connect to a specific virtual private server,
-          or instance.
+    Returns the data points for the specified Amazon Lightsail instance metric, given an
+          instance name.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
   humanURL: https://amazonlightsail.com/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-lightsale/action-getinstanceaccessdetails-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-lightsale/action-getinstancemetricdata-get.md
 x-common:
 - type: x-documentation
   url: https://docs.aws.amazon.com/lightsail/2016-11-28/api-reference/Welcome.html?fid=6DDA37DF97F08F8B-23761D4A79F7B1E
