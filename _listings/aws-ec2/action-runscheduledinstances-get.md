@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Run Scheduled Instances
   version: 1.0.0
+  description: Launches the specified Scheduled Instances.
 schemes:
 - http
 produces:
