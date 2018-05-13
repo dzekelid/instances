@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Register Instance
   version: 1.0.0
+  description: Registers instances that were created outside of AWS OpsWorks Stacks
+    with a specified stack.
 schemes:
 - http
 produces:
