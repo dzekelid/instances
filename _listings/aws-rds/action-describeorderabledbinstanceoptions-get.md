@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Describe Orderable D B Instance Options
   version: 1.0.0
+  description: Returns a list of orderable DB instance options for the specified engine.
 schemes:
 - http
 produces:
