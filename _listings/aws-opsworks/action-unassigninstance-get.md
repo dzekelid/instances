@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Unassign Instance
   version: 1.0.0
+  description: Unassigns a registered instance from all of it's layers.
 schemes:
 - http
 produces:
