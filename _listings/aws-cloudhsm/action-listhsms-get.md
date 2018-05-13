@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudHSM API
+  title: AWS CloudHSM API List HSM
   version: 1.0.0
+  description: |-
+    Retrieves the identifiers of all of the HSMs provisioned for the current
+          customer.
 schemes:
 - http
 produces:
