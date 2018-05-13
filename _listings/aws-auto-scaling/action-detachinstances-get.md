@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Auto Scaling API
+  title: AWS Auto Scaling API Detach Instances
   version: 1.0.0
+  description: Removes one or more instances from the specified Auto Scaling group.
 schemes:
 - http
 produces:
