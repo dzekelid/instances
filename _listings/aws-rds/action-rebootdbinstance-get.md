@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Reboot D B Instance
   version: 1.0.0
+  description: Rebooting a DB instance restarts the database engine service.
 schemes:
 - http
 produces:
