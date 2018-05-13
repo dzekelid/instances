@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CodeDeploy API
+  title: AWS CodeDeploy API List On Premises Instances
   version: 1.0.0
+  description: Gets a list of names for one or more on-premises instances.
 schemes:
 - http
 produces:
