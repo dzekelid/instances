@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Stop Instance
   version: 1.0.0
+  description: Stops a specific Amazon Lightsail instance that is currently running.
 schemes:
 - http
 produces:
