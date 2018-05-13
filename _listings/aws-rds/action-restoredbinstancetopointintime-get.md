@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Restore D B Instance To Point In Time
   version: 1.0.0
+  description: Restores a DB instance to an arbitrary point in time.
 schemes:
 - http
 produces:
