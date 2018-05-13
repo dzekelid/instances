@@ -32,7 +32,34 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-elastic-beanstalk/action-describeinstanceshealth-get.md
+- name: AWS Elastic Beanstalk API Describe Instances Health
+  description: |-
+    Retrives detailed information about the health of instances in your AWS Elastic
+          Beanstalk.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: http:://{host}//
+  tags: Instances
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-elastic-beanstalk/action-describeinstanceshealth-get.md
 x-common:
+- type: x-change-log
+  url: http://aws.amazon.com/releasenotes/AWS-Elastic-Beanstalk
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/elasticbeanstalk/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=86
+- type: x-getting-started
+  url: https://aws.amazon.com/elasticbeanstalk/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/elasticbeanstalk/pricing/
+- type: x-website
+  url: https://aws.amazon.com/elasticbeanstalk/
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Elastic-Beanstalk
 - type: x-command-line-interface
