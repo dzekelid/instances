@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Start Instance
   version: 1.0.0
+  description: Starts a specific Amazon Lightsail instance from a stopped state.
 schemes:
 - http
 produces:
