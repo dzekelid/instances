@@ -28,16 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-users-put.md
-- name: Google Cloud SQL API Add Projects Project Instances Instance Import
-  description: Imports data into a Cloud SQL instance from a MySQL dump file in Google
-    Cloud Storage.
+- name: Google Cloud SQL API Add Projects Project Instances Instance Promotereplica
+  description: Promotes the read replica instance to be a stand-alone Cloud SQL instance.
   image: ""
   humanURL: https://cloud.google.com/sql/
   baseURL: http:://www.googleapis.com//sql/v1beta4
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-import-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-promotereplica-post.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-promotereplica-post-postman.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/sql/docs/release-notes
