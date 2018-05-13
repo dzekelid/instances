@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Get Instance
   version: 1.0.0
+  description: |-
+    Returns information about a specific Amazon Lightsail instance, which is a virtual
+          private server.
 schemes:
 - http
 produces:
