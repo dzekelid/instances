@@ -49,15 +49,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-cloudhsm/action-modifyhsm-get.md
-- name: AWS CloudHSM API Delete HSM
-  description: Deletes an HSM.
+- name: AWS CloudHSM API Describe HSM
+  description: Retrieves information about an HSM.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
   humanURL: https://aws.amazon.com/cloudhsm/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-cloudhsm/action-deletehsm-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-cloudhsm/action-describehsm-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/cloudhsm/latest/dg/
