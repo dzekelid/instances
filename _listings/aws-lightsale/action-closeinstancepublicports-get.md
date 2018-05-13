@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Close Instance Public Ports
   version: 1.0.0
+  description: Closes the public ports on a specific Amazon Lightsail instance.
 schemes:
 - http
 produces:
