@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Database Migration Service API
+  title: AWS Database Migration Service API Delete Replication Instance
   version: 1.0.0
+  description: Deletes the specified replication instance.
 schemes:
 - http
 produces:
