@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Delete Instance
   version: 1.0.0
+  description: Deletes a specified instance, which terminates the associated Amazon
+    EC2 instance.
 schemes:
 - http
 produces:
