@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Start Instances
   version: 1.0.0
+  description: Starts an Amazon EBS-backed AMI that you've previously stopped.
 schemes:
 - http
 produces:
