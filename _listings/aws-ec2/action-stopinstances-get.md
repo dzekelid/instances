@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Stop Instances
   version: 1.0.0
+  description: Stops an Amazon EBS-backed instance.
 schemes:
 - http
 produces:
