@@ -28,16 +28,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-users-put.md
-- name: Google Cloud SQL API Add Projects Project Instances Instance Export
-  description: Exports data from a Cloud SQL instance to a Google Cloud Storage bucket
-    as a MySQL dump file.
+- name: Google Cloud SQL API Add Projects Project Instances Instance Failover
+  description: Failover the instance to its failover replica instance.
   image: ""
   humanURL: https://cloud.google.com/sql/
   baseURL: http:://www.googleapis.com//sql/v1beta4
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-export-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/google-cloud-sql/projects-project-instances-instance-failover-post.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/sql/docs/release-notes
