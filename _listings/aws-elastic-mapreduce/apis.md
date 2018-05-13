@@ -33,7 +33,33 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-elastic-mapreduce/action-listinstances-get.md
+- name: AWS Elastic MapReduce API List Instances
+  description: "Provides information about the cluster instances that Amazon EMR provisions
+    on behalf of a user \n         when it creates the cluster."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
+  humanURL: https://aws.amazon.com/emr/
+  baseURL: http:://{host}//
+  tags: Instances
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-elastic-mapreduce/action-listinstances-get.md
 x-common:
+- type: x-article
+  url: http://aws.amazon.com/articles/Elastic-MapReduce
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-cli-reference.html
+- type: x-faq
+  url: https://aws.amazon.com/emr/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/emr/getting-started/
+- type: x-partners
+  url: https://aws.amazon.com/emr/partners/
+- type: x-pricing
+  url: https://aws.amazon.com/emr/pricing/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/ElasticMapReduce/latest/API/
+- type: x-website
+  url: https://aws.amazon.com/emr/
 - type: x-article
   url: http://aws.amazon.com/articles/Elastic-MapReduce
 - type: x-command-line-interface
