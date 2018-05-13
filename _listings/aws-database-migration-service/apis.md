@@ -35,7 +35,32 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-database-migration-service/action-modifyreplicationinstance-get.md
+- name: AWS Database Migration Service API Create Replication Instance
+  description: Creates the replication instance using the specified parameters.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-icon-dms.png
+  humanURL: https://aws.amazon.com/dms/
+  baseURL: http:://{host}//
+  tags: Instances
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-database-migration-service/action-createreplicationinstance-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/dms/latest/APIReference/Welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/dms/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/dms/getting-started/
+- type: x-partners
+  url: https://aws.amazon.com/dms/partners/
+- type: x-pricing
+  url: https://aws.amazon.com/dms/pricing/
+- type: x-schema-conversion
+  url: https://aws.amazon.com/dms/#sct
+- type: x-testimonials
+  url: https://aws.amazon.com/dms/testimonials/
+- type: x-website
+  url: https://aws.amazon.com/dms/
 - type: x-documentation
   url: http://docs.aws.amazon.com/dms/latest/APIReference/Welcome.html
 - type: x-faq
