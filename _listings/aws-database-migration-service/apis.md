@@ -35,15 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-database-migration-service/action-modifyreplicationinstance-get.md
-- name: AWS Database Migration Service API Describe Replication Subnet Groups
-  description: Returns information about the replication subnet groups.
+- name: AWS Database Migration Service API Modify Replication Instance
+  description: Modifies the replication instance to apply new settings.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-icon-dms.png
   humanURL: https://aws.amazon.com/dms/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-database-migration-service/action-describereplicationsubnetgroups-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-database-migration-service/action-modifyreplicationinstance-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/dms/latest/APIReference/Welcome.html
