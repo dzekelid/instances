@@ -34,7 +34,32 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-ec2/action-runscheduledinstances-get.md
+- name: AWS EC2 API Run Instances
+  description: |-
+    Launches the specified number of instances using an AMI for which you have
+                permissions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: http:://{host}//
+  tags: Instances
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-ec2/action-runinstances-get.md
 x-common:
+- type: x-code
+  url: http://aws.amazon.com/code/Amazon-EC2/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/AWSEC2/latest/APIReference/Welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/ec2/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/ec2/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/ec2/pricing/
+- type: x-sla
+  url: https://aws.amazon.com/ec2/sla/
+- type: x-website
+  url: https://aws.amazon.com/ec2/
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
 - type: x-documentation
