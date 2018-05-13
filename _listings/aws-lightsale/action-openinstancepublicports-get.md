@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Open Instance Public Ports
   version: 1.0.0
+  description: Adds public ports to an Amazon Lightsail instance.
 schemes:
 - http
 produces:
