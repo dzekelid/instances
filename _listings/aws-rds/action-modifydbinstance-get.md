@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Modify D B Instance
   version: 1.0.0
+  description: Modifies settings for a DB instance.
 schemes:
 - http
 produces:
