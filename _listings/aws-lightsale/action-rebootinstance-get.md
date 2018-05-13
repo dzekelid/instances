@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Reboot Instance
   version: 1.0.0
+  description: Restarts a specific instance.
 schemes:
 - http
 produces:
