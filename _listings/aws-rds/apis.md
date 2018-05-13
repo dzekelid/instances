@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-rds/action-restoredbinstancetopointintime-get.md
-- name: Amazon RDS API Purchase Reserved D B Instances Offering
-  description: Purchases a reserved DB instance offering.
+- name: Amazon RDS API Reboot D B Instance
+  description: Rebooting a DB instance restarts the database engine service.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-rds/action-purchasereserveddbinstancesoffering-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-rds/action-rebootdbinstance-get.md
 x-common:
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
