@@ -35,16 +35,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-database-migration-service/action-modifyreplicationinstance-get.md
-- name: AWS Database Migration Service API Describe Orderable Replication Instances
-  description: Returns information about the replication instance types that can be
-    created in the specified region.
+- name: AWS Database Migration Service API Describe Replication Instances
+  description: Returns information about replication instances for your account in
+    the current region.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-icon-dms.png
   humanURL: https://aws.amazon.com/dms/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-database-migration-service/action-describeorderablereplicationinstances-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-database-migration-service/action-describereplicationinstances-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/dms/latest/APIReference/Welcome.html
