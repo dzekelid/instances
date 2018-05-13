@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CodeDeploy API
+  title: AWS CodeDeploy API Deregister On Premises Instance
   version: 1.0.0
+  description: Deregisters an on-premises instance.
 schemes:
 - http
 produces:
