@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Create Instance Snapshot
   version: 1.0.0
+  description: |-
+    Creates a snapshot of a specific virtual private server, or
+            instance.
 schemes:
 - http
 produces:
