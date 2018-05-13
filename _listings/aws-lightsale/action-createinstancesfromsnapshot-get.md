@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Create Instances From Snapshot
   version: 1.0.0
+  description: |-
+    Uses a specific snapshot as a blueprint for creating one or more new instances that are
+          based on that identical configuration.
 schemes:
 - http
 produces:
