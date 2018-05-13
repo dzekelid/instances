@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Delete D B Instance
   version: 1.0.0
+  description: The DeleteDBInstance action deletes a previously provisioned DB instance.
 schemes:
 - http
 produces:
