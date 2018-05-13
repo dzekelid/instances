@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CodeDeploy API
+  title: AWS CodeDeploy API Remove Tags From On Premises Instances
   version: 1.0.0
+  description: Removes one or more tags from one or more on-premises instances.
 schemes:
 - http
 produces:
