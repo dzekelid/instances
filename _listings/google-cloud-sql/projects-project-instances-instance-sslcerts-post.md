@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Cloud SQL Administration
-  description: Creates and configures Cloud SQL instances, which provide fully-managed
-    MySQL databases.
+  title: Google Cloud SQL API Add Projects Project Instances Instance Sslcerts
+  description: Creates an SSL certificate and returns it along with the private key
+    and server certificate authority. The new certificate will not be usable until
+    the instance is restarted.
   contact:
     name: Google
     url: https://google.com
