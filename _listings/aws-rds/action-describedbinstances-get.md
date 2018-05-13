@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Describe D B Instances
   version: 1.0.0
+  description: Returns information about provisioned RDS instances.
 schemes:
 - http
 produces:
