@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Describe Instances Health
   version: 1.0.0
+  description: |-
+    Retrives detailed information about the health of instances in your AWS Elastic
+          Beanstalk.
 schemes:
 - http
 produces:
