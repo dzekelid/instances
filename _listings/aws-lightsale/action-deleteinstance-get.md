@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Delete Instance
   version: 1.0.0
+  description: |-
+    Deletes a specific Amazon Lightsail virtual private server, or
+            instance.
 schemes:
 - http
 produces:
