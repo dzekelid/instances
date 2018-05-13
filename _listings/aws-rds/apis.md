@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-rds/action-restoredbinstancetopointintime-get.md
-- name: Amazon RDS API Reboot D B Instance
-  description: Rebooting a DB instance restarts the database engine service.
+- name: Amazon RDS API Restore D B Instance From D B Snapshot
+  description: Creates a new DB instance from a DB snapshot.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
   baseURL: http:://{host}//
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-rds/action-rebootdbinstance-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/aws-rds/action-restoredbinstancefromdbsnapshot-get.md
 x-common:
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
