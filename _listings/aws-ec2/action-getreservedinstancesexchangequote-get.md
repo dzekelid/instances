@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Get Reserved Instances Exchange Quote
   version: 1.0.0
+  description: Returns details about the values and term of your specified Convertible
+    Reserved Instances.
 schemes:
 - http
 produces:
