@@ -43,7 +43,7 @@ apis:
   tags: Instances
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/microsoft-graph/users-id-|-userprincipalname-events-id-instances-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/instances/master/_listings/microsoft-graph/groups-id-events-id-instances-get.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
