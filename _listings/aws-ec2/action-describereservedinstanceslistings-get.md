@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Describe Reserved Instances Listings
   version: 1.0.0
+  description: Describes your account's Reserved Instance listings in the Reserved
+    Instance Marketplace.
 schemes:
 - http
 produces:
