@@ -6,7 +6,6 @@ info:
   title: IBM Watson Machine Learning Get Wml Instances Instance Deployments
   description: Get wml instances instance deployments.
   version: 1.0.0
-host: ibm-watson-ml.mybluemix.net
 basePath: v3/
 schemes:
 - http
@@ -14,6 +13,7 @@ produces:
 - application/json
 consumes:
 - application/json
+host: ibm-watson-ml.mybluemix.net
 paths:
   /wml_instances/{instance_id}/published_models:
     get:
@@ -508,6 +508,21 @@ paths:
       - Instance
       - Id
       - Deployments
+  /wml_instances/{instance_id}:
+    get:
+      summary: Get Wml Instances Instance
+      description: Details about specific service instance
+      operationId: getInstanceDetails
+      x-api-path-slug: wml-instancesinstance-id-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Wml
+      - Instances
+      - Instance
+      - Id
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

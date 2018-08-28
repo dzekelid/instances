@@ -721,6 +721,34 @@ paths:
       - Id
       - Variables
       - Key
+  /v1/customers/{customer_id}/backup_instances:
+    get:
+      summary: Retrieves a list of backup_instances associated with the specified
+        customer
+      description: It is only possible to retrieve backup_instances for customers
+        you are authorized to access. Records are returned in ascending order (by
+        id), with a default of 20 per page. Links to the next, previous, first, and
+        last pages can be found in the response headers.
+      operationId: getV1CustomersCustomerBackupInstances
+      x-api-path-slug: v1customerscustomer-idbackup-instances-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer Access Token granted from client credentials authorizing
+          vendor to perform action
+      - in: path
+        name: customer_id
+        description: ID of the customer to retrieve backup_instances for
+      responses:
+        200:
+          description: OK
+      tags:
+      - V1
+      - Customers
+      - Customer
+      - Id
+      - Backup
+      - Instances
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

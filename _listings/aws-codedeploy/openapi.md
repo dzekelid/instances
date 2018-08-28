@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS CodeDeploy
 x-complete: 1
@@ -70,58 +69,6 @@ paths:
           description: OK
       tags:
       - On Premises Instances
-  /?Action=DeregisterOnPremisesInstance:
-    get:
-      summary: Deregister On Premises Instance
-      description: Deregisters an on-premises instance.
-      operationId: deregisterOnPremisesInstance
-      x-api-path-slug: actionderegisteronpremisesinstance-get
-      parameters:
-      - in: query
-        name: instanceName
-        description: The name of the on-premises instance to deregister
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - On Premises Instances
-  /?Action=GetDeploymentInstance:
-    get:
-      summary: Get Deployment Instance
-      description: Gets information about an instance as part of a deployment.
-      operationId: getDeploymentInstance
-      x-api-path-slug: actiongetdeploymentinstance-get
-      parameters:
-      - in: query
-        name: deploymentId
-        description: The unique ID of a deployment
-        type: string
-      - in: query
-        name: instanceId
-        description: The unique ID of an instance in the deployment group
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Deployment Instances
-  /?Action=GetOnPremisesInstance:
-    get:
-      summary: Get On Premises Instance
-      description: Gets information about an on-premises instance.
-      operationId: getOnPremisesInstance
-      x-api-path-slug: actiongetonpremisesinstance-get
-      parameters:
-      - in: query
-        name: instanceName
-        description: The name of the on-premises instance about which to get information
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - On Premises Instances
   /?Action=ListDeploymentInstances:
     get:
       summary: List Deployment Instances
@@ -175,6 +122,78 @@ paths:
           description: OK
       tags:
       - On Premises Instances
+  /?Action=RemoveTagsFromOnPremisesInstances:
+    get:
+      summary: Remove Tags From On Premises Instances
+      description: Removes one or more tags from one or more on-premises instances.
+      operationId: removeTagsFromOnPremisesInstances
+      x-api-path-slug: actionremovetagsfromonpremisesinstances-get
+      parameters:
+      - in: query
+        name: instanceNames
+        description: The names of the on-premises instances from which to remove tags
+        type: string
+      - in: query
+        name: tags
+        description: The tag key-value pairs to remove from the on-premises instances
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - On Premises Instances
+  /?Action=DeregisterOnPremisesInstance:
+    get:
+      summary: Deregister On Premises Instance
+      description: Deregisters an on-premises instance.
+      operationId: deregisterOnPremisesInstance
+      x-api-path-slug: actionderegisteronpremisesinstance-get
+      parameters:
+      - in: query
+        name: instanceName
+        description: The name of the on-premises instance to deregister
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - On Premises Instances
+  /?Action=GetDeploymentInstance:
+    get:
+      summary: Get Deployment Instance
+      description: Gets information about an instance as part of a deployment.
+      operationId: getDeploymentInstance
+      x-api-path-slug: actiongetdeploymentinstance-get
+      parameters:
+      - in: query
+        name: deploymentId
+        description: The unique ID of a deployment
+        type: string
+      - in: query
+        name: instanceId
+        description: The unique ID of an instance in the deployment group
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Deployment Instances
+  /?Action=GetOnPremisesInstance:
+    get:
+      summary: Get On Premises Instance
+      description: Gets information about an on-premises instance.
+      operationId: getOnPremisesInstance
+      x-api-path-slug: actiongetonpremisesinstance-get
+      parameters:
+      - in: query
+        name: instanceName
+        description: The name of the on-premises instance about which to get information
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - On Premises Instances
   /?Action=RegisterOnPremisesInstance:
     get:
       summary: Register On Premises Instance
@@ -200,24 +219,3 @@ paths:
           description: OK
       tags:
       - On Premises Instances
-  /?Action=RemoveTagsFromOnPremisesInstances:
-    get:
-      summary: Remove Tags From On Premises Instances
-      description: Removes one or more tags from one or more on-premises instances.
-      operationId: removeTagsFromOnPremisesInstances
-      x-api-path-slug: actionremovetagsfromonpremisesinstances-get
-      parameters:
-      - in: query
-        name: instanceNames
-        description: The names of the on-premises instances from which to remove tags
-        type: string
-      - in: query
-        name: tags
-        description: The tag key-value pairs to remove from the on-premises instances
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - On Premises Instances
----

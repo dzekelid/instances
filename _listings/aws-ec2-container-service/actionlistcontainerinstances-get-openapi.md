@@ -98,6 +98,19 @@ paths:
       tags:
       - Containers
       - Instances
+  /?Action=RegisterContainerInstance:
+    get:
+      summary: Register Container Instance
+      description: Deregisters an Amazon ECS container instance from the specified
+        cluster.
+      operationId: registerContainerInstance
+      x-api-path-slug: actionregistercontainerinstance-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Containers
+      - Instances
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -908,6 +908,38 @@ paths:
       - Instances
       - Instance
       - Users
+    put:
+      summary: Put Projects Project Instances Instance Users
+      description: Updates an existing user in a Cloud SQL instance.
+      operationId: sql.users.update
+      x-api-path-slug: projectsprojectinstancesinstanceusers-put
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: host
+        description: Host of the user in the instance
+      - in: path
+        name: instance
+        description: Database instance ID
+      - in: query
+        name: name
+        description: Name of the user in the instance
+      - in: path
+        name: project
+        description: Project ID of the project that contains the instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Put
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Users
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

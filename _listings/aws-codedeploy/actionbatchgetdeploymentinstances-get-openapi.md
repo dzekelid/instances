@@ -57,6 +57,95 @@ paths:
           description: OK
       tags:
       - Deployment Instances
+  /?Action=BatchGetOnPremisesInstances:
+    get:
+      summary: Batch Get On Premises Instances
+      description: Gets information about one or more on-premises instances.
+      operationId: batchGetOnPremisesInstances
+      x-api-path-slug: actionbatchgetonpremisesinstances-get
+      parameters:
+      - in: query
+        name: instanceNames
+        description: The names of the on-premises instances about which to get information
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - On Premises Instances
+  /?Action=ListDeploymentInstances:
+    get:
+      summary: List Deployment Instances
+      description: |-
+        Lists the instance for a deployment associated with the applicable IAM user or AWS
+                    account.
+      operationId: listDeploymentInstances
+      x-api-path-slug: actionlistdeploymentinstances-get
+      parameters:
+      - in: query
+        name: deploymentId
+        description: The unique ID of a deployment
+        type: string
+      - in: query
+        name: instanceStatusFilter
+        description: 'A subset of instances to list by status:'
+        type: string
+      - in: query
+        name: nextToken
+        description: An identifier returned from the previous list deployment instances
+          call
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Deployment Instances
+  /?Action=ListOnPremisesInstances:
+    get:
+      summary: List On Premises Instances
+      description: Gets a list of names for one or more on-premises instances.
+      operationId: listOnPremisesInstances
+      x-api-path-slug: actionlistonpremisesinstances-get
+      parameters:
+      - in: query
+        name: nextToken
+        description: An identifier returned from the previous list on-premises instances
+          call
+        type: string
+      - in: query
+        name: registrationStatus
+        description: 'The registration status of the on-premises instances:'
+        type: string
+      - in: query
+        name: tagFilters
+        description: The on-premises instance tags that will be used to restrict the
+          corresponding            on-premises instance names returned
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - On Premises Instances
+  /?Action=RemoveTagsFromOnPremisesInstances:
+    get:
+      summary: Remove Tags From On Premises Instances
+      description: Removes one or more tags from one or more on-premises instances.
+      operationId: removeTagsFromOnPremisesInstances
+      x-api-path-slug: actionremovetagsfromonpremisesinstances-get
+      parameters:
+      - in: query
+        name: instanceNames
+        description: The names of the on-premises instances from which to remove tags
+        type: string
+      - in: query
+        name: tags
+        description: The tag key-value pairs to remove from the on-premises instances
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - On Premises Instances
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

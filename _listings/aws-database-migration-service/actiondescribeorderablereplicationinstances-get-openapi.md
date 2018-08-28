@@ -14,6 +14,52 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=DescribeOrderableReplicationInstances:
+    get:
+      summary: Describe Orderable Replication Instances
+      description: Returns information about the replication instance types that can
+        be created in the specified region.
+      operationId: describeOrderableReplicationInstances
+      x-api-path-slug: actiondescribeorderablereplicationinstances-get
+      parameters:
+      - in: query
+        name: Marker
+        description: An optional pagination token provided by a previous      request
+        type: string
+      - in: query
+        name: MaxRecords
+        description: The maximum number of records to include in the response
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Replication Instances
+  /?Action=DescribeReplicationInstances:
+    get:
+      summary: Describe Replication Instances
+      description: Returns information about replication instances for your account
+        in the current region.
+      operationId: describeReplicationInstances
+      x-api-path-slug: actiondescribereplicationinstances-get
+      parameters:
+      - in: query
+        name: Filters
+        description: Filters applied to the describe action
+        type: string
+      - in: query
+        name: Marker
+        description: An optional pagination token provided by a previous      request
+        type: string
+      - in: query
+        name: MaxRecords
+        description: The maximum number of records to include in the response
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Replication Instances
   /?Action=CreateReplicationInstance:
     get:
       summary: Create Replication Instance
@@ -96,27 +142,6 @@ paths:
         name: ReplicationInstanceArn
         description: The Amazon Resource Name (ARN) of the replication instance to
           be deleted
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Replication Instances
-  /?Action=DescribeOrderableReplicationInstances:
-    get:
-      summary: Describe Orderable Replication Instances
-      description: Returns information about the replication instance types that can
-        be created in the specified region.
-      operationId: describeOrderableReplicationInstances
-      x-api-path-slug: actiondescribeorderablereplicationinstances-get
-      parameters:
-      - in: query
-        name: Marker
-        description: An optional pagination token provided by a previous      request
-        type: string
-      - in: query
-        name: MaxRecords
-        description: The maximum number of records to include in the response
         type: string
       responses:
         200:

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: New Relic
 x-complete: 1
@@ -13,42 +12,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /applications/{application_id}/instances.{format}:
-    get:
-      summary: Get Applications Application  Instances. Format
-      description: "This API endpoint returns a \npaginated list of instances associated
-        with the given application. The time range for summary data is the last 10
-        minutes.\n\nApplication instances can be filtered by hostname, or the list
-        of application instance IDs.\n\nSee our documentation for a discussion and
-        examples of\nusing  filters \nand summary data output."
-      operationId: getApplicationsApplicationInstances.Format
-      x-api-path-slug: applicationsapplication-idinstances-format-get
-      parameters:
-      - in: path
-        name: application_id
-        description: Application ID
-        type: integer
-      - in: query
-        name: filter[hostname]
-        description: Filter by server hostname
-        type: string
-      - in: query
-        name: filter[ids]
-        description: Filter by application instance ids
-        type: list
-      - in: query
-        name: page
-        description: Pagination index
-        type: integer
-      responses:
-        200:
-          description: OK
-      tags:
-      - Applications
-      - Application
-      - ""
-      - Instances.
-      - Format
   /applications/{application_id}/instances/{id}.{format}:
     get:
       summary: Get Applications Application  Instances  . Format
@@ -186,4 +149,39 @@ paths:
       - Metrics
       - Data.
       - Format
----
+  /applications/{application_id}/instances.{format}:
+    get:
+      summary: Get Applications Application  Instances. Format
+      description: "This API endpoint returns a \npaginated list of instances associated
+        with the given application. The time range for summary data is the last 10
+        minutes.\n\nApplication instances can be filtered by hostname, or the list
+        of application instance IDs.\n\nSee our documentation for a discussion and
+        examples of\nusing  filters \nand summary data output."
+      operationId: getApplicationsApplicationInstances.Format
+      x-api-path-slug: applicationsapplication-idinstances-format-get
+      parameters:
+      - in: path
+        name: application_id
+        description: Application ID
+        type: integer
+      - in: query
+        name: filter[hostname]
+        description: Filter by server hostname
+        type: string
+      - in: query
+        name: filter[ids]
+        description: Filter by application instance ids
+        type: list
+      - in: query
+        name: page
+        description: Pagination index
+        type: integer
+      responses:
+        200:
+          description: OK
+      tags:
+      - Applications
+      - Application
+      - ""
+      - Instances.
+      - Format

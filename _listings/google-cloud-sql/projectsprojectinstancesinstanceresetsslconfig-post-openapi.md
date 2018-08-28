@@ -615,6 +615,334 @@ paths:
       - Instances
       - Instance
       - Resetsslconfig
+  /projects/{project}/instances/{instance}/restart:
+    post:
+      summary: Add Projects Project Instances Instance Restart
+      description: Restarts a Cloud SQL instance.
+      operationId: sql.instances.restart
+      x-api-path-slug: projectsprojectinstancesinstancerestart-post
+      parameters:
+      - in: path
+        name: instance
+        description: Cloud SQL instance ID
+      - in: path
+        name: project
+        description: Project ID of the project that contains the instance to be restarted
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Restart
+  /projects/{project}/instances/{instance}/restoreBackup:
+    post:
+      summary: Add Projects Project Instances Instance Restorebackup
+      description: Restores a backup of a Cloud SQL instance.
+      operationId: sql.instances.restoreBackup
+      x-api-path-slug: projectsprojectinstancesinstancerestorebackup-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: instance
+        description: Cloud SQL instance ID
+      - in: path
+        name: project
+        description: Project ID of the project that contains the instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Restorebackup
+  /projects/{project}/instances/{instance}/sslCerts:
+    get:
+      summary: Get Projects Project Instances Instance Sslcerts
+      description: Lists all of the current SSL certificates for the instance.
+      operationId: sql.sslCerts.list
+      x-api-path-slug: projectsprojectinstancesinstancesslcerts-get
+      parameters:
+      - in: path
+        name: instance
+        description: Cloud SQL instance ID
+      - in: path
+        name: project
+        description: Project ID of the project for which to list Cloud SQL instances
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Sslcerts
+    post:
+      summary: Add Projects Project Instances Instance Sslcerts
+      description: Creates an SSL certificate and returns it along with the private
+        key and server certificate authority. The new certificate will not be usable
+        until the instance is restarted.
+      operationId: sql.sslCerts.insert
+      x-api-path-slug: projectsprojectinstancesinstancesslcerts-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: instance
+        description: Cloud SQL instance ID
+      - in: path
+        name: project
+        description: Project ID of the project to which the newly created Cloud SQL
+          instances should belong
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Sslcerts
+  /projects/{project}/instances/{instance}/sslCerts/{sha1Fingerprint}:
+    delete:
+      summary: Delete Projects Project Instances Instance Sslcerts Sha1fingerprint
+      description: Deletes the SSL certificate. The change will not take effect until
+        the instance is restarted.
+      operationId: sql.sslCerts.delete
+      x-api-path-slug: projectsprojectinstancesinstancesslcertssha1fingerprint-delete
+      parameters:
+      - in: path
+        name: instance
+        description: Cloud SQL instance ID
+      - in: path
+        name: project
+        description: Project ID of the project that contains the instance to be deleted
+      - in: path
+        name: sha1Fingerprint
+        description: Sha1 FingerPrint
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Sslcerts
+      - Sha1fingerprint
+    get:
+      summary: Get Projects Project Instances Instance Sslcerts Sha1fingerprint
+      description: Retrieves a particular SSL certificate. Does not include the private
+        key (required for usage). The private key must be saved from the response
+        to initial creation.
+      operationId: sql.sslCerts.get
+      x-api-path-slug: projectsprojectinstancesinstancesslcertssha1fingerprint-get
+      parameters:
+      - in: path
+        name: instance
+        description: Cloud SQL instance ID
+      - in: path
+        name: project
+        description: Project ID of the project that contains the instance
+      - in: path
+        name: sha1Fingerprint
+        description: Sha1 FingerPrint
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Sslcerts
+      - Sha1fingerprint
+  /projects/{project}/instances/{instance}/startReplica:
+    post:
+      summary: Add Projects Project Instances Instance Startreplica
+      description: Starts the replication in the read replica instance.
+      operationId: sql.instances.startReplica
+      x-api-path-slug: projectsprojectinstancesinstancestartreplica-post
+      parameters:
+      - in: path
+        name: instance
+        description: Cloud SQL read replica instance name
+      - in: path
+        name: project
+        description: ID of the project that contains the read replica
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Startreplica
+  /projects/{project}/instances/{instance}/stopReplica:
+    post:
+      summary: Add Projects Project Instances Instance Stopreplica
+      description: Stops the replication in the read replica instance.
+      operationId: sql.instances.stopReplica
+      x-api-path-slug: projectsprojectinstancesinstancestopreplica-post
+      parameters:
+      - in: path
+        name: instance
+        description: Cloud SQL read replica instance name
+      - in: path
+        name: project
+        description: ID of the project that contains the read replica
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Stopreplica
+  /projects/{project}/instances/{instance}/truncateLog:
+    post:
+      summary: Add Projects Project Instances Instance Truncatelog
+      description: Truncate MySQL general and slow query log tables
+      operationId: sql.instances.truncateLog
+      x-api-path-slug: projectsprojectinstancesinstancetruncatelog-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: instance
+        description: Cloud SQL instance ID
+      - in: path
+        name: project
+        description: Project ID of the Cloud SQL project
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Truncatelog
+  /projects/{project}/instances/{instance}/users:
+    delete:
+      summary: Delete Projects Project Instances Instance Users
+      description: Deletes a user from a Cloud SQL instance.
+      operationId: sql.users.delete
+      x-api-path-slug: projectsprojectinstancesinstanceusers-delete
+      parameters:
+      - in: query
+        name: host
+        description: Host of the user in the instance
+      - in: path
+        name: instance
+        description: Database instance ID
+      - in: query
+        name: name
+        description: Name of the user in the instance
+      - in: path
+        name: project
+        description: Project ID of the project that contains the instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Users
+    get:
+      summary: Get Projects Project Instances Instance Users
+      description: Lists users in the specified Cloud SQL instance.
+      operationId: sql.users.list
+      x-api-path-slug: projectsprojectinstancesinstanceusers-get
+      parameters:
+      - in: path
+        name: instance
+        description: Database instance ID
+      - in: path
+        name: project
+        description: Project ID of the project that contains the instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Users
+    post:
+      summary: Add Projects Project Instances Instance Users
+      description: Creates a new user in a Cloud SQL instance.
+      operationId: sql.users.insert
+      x-api-path-slug: projectsprojectinstancesinstanceusers-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: instance
+        description: Database instance ID
+      - in: path
+        name: project
+        description: Project ID of the project that contains the instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Users
+    put:
+      summary: Put Projects Project Instances Instance Users
+      description: Updates an existing user in a Cloud SQL instance.
+      operationId: sql.users.update
+      x-api-path-slug: projectsprojectinstancesinstanceusers-put
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: host
+        description: Host of the user in the instance
+      - in: path
+        name: instance
+        description: Database instance ID
+      - in: query
+        name: name
+        description: Name of the user in the instance
+      - in: path
+        name: project
+        description: Project ID of the project that contains the instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Put
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Users
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -389,6 +389,54 @@ paths:
           description: OK
       tags:
       - Instances
+  /?Action=RebootInstance:
+    get:
+      summary: Reboot Instance
+      description: Restarts a specific instance.
+      operationId: rebootInstance
+      x-api-path-slug: actionrebootinstance-get
+      parameters:
+      - in: query
+        name: instanceName
+        description: The name of the instance to reboot
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Instances
+  /?Action=StartInstance:
+    get:
+      summary: Start Instance
+      description: Starts a specific Amazon Lightsail instance from a stopped state.
+      operationId: startInstance
+      x-api-path-slug: actionstartinstance-get
+      parameters:
+      - in: query
+        name: instanceName
+        description: The name of the instance (a virtual private server) to start
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Instances
+  /?Action=StopInstance:
+    get:
+      summary: Stop Instance
+      description: Stops a specific Amazon Lightsail instance that is currently running.
+      operationId: stopInstance
+      x-api-path-slug: actionstopinstance-get
+      parameters:
+      - in: query
+        name: instanceName
+        description: The name of the instance (a virtual private server) to stop
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Instances
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

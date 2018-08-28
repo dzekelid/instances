@@ -334,6 +334,109 @@ paths:
           description: OK
       tags:
       - Instances
+  /?Action=GetInstanceSnapshots:
+    get:
+      summary: Get Instance Snapshots
+      description: Returns all instance snapshots for the user's account.
+      operationId: getInstanceSnapshots
+      x-api-path-slug: actiongetinstancesnapshots-get
+      parameters:
+      - in: query
+        name: pageToken
+        description: A token used for advancing to the next page of results from your
+          get instance snapshots      request
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Instances
+  /?Action=GetInstanceState:
+    get:
+      summary: Get Instance State
+      description: Returns the state of a specific instance.
+      operationId: getInstanceState
+      x-api-path-slug: actiongetinstancestate-get
+      parameters:
+      - in: query
+        name: instanceName
+        description: The name of the instance to get state information about
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Instances
+  /?Action=OpenInstancePublicPorts:
+    get:
+      summary: Open Instance Public Ports
+      description: Adds public ports to an Amazon Lightsail instance.
+      operationId: openInstancePublicPorts
+      x-api-path-slug: actionopeninstancepublicports-get
+      parameters:
+      - in: query
+        name: instanceName
+        description: The name of the instance for which you want to open the public
+          ports
+        type: string
+      - in: query
+        name: portInfo
+        description: An array of key-value pairs containing information about the
+          port mappings
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Instances
+  /?Action=RebootInstance:
+    get:
+      summary: Reboot Instance
+      description: Restarts a specific instance.
+      operationId: rebootInstance
+      x-api-path-slug: actionrebootinstance-get
+      parameters:
+      - in: query
+        name: instanceName
+        description: The name of the instance to reboot
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Instances
+  /?Action=StartInstance:
+    get:
+      summary: Start Instance
+      description: Starts a specific Amazon Lightsail instance from a stopped state.
+      operationId: startInstance
+      x-api-path-slug: actionstartinstance-get
+      parameters:
+      - in: query
+        name: instanceName
+        description: The name of the instance (a virtual private server) to start
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Instances
+  /?Action=StopInstance:
+    get:
+      summary: Stop Instance
+      description: Stops a specific Amazon Lightsail instance that is currently running.
+      operationId: stopInstance
+      x-api-path-slug: actionstopinstance-get
+      parameters:
+      - in: query
+        name: instanceName
+        description: The name of the instance (a virtual private server) to stop
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Instances
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
